@@ -4,7 +4,7 @@ import {FormsModule} from "@angular/forms"
 
 import { AppComponent } from './app.component';
 import { FormComponent } from './form/form.component';
-// import { DetailsComponent } from './details/details.component';
+import { DetailsComponent } from './details/details.component';
 import { QuoteComponent } from './quote/quote.component';
 // import { HighlightDirective } from './highlight.directive';
 
@@ -13,7 +13,7 @@ import { QuoteComponent } from './quote/quote.component';
   declarations: [
     AppComponent,
     FormComponent,
-    // DetailsComponent,
+    DetailsComponent,
     QuoteComponent,
     // HighlightDirective
   ],
